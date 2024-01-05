@@ -21,11 +21,11 @@ Welcome to the Flutter Fitness App project! This mobile application is designed 
 
 ## Screenshots
 
-![Screenshot 1](./screenshots/flutter_01.png)
-_Home Page 1 of 2_
+_Home Page 1 of 2_  
+<img alt="Screenshot 1" src="./screenshots/flutter_01.png" width="420"/>
 
-![Screenshot 2](./screenshots/flutter_02.png)
-_Home Page 2 of 2_
+_Home Page 2 of 2_  
+<img alt="Screenshot 2" src="./screenshots/flutter_02.png" width="420"/>
 
 ## Code Overview
 
