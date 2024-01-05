@@ -26,16 +26,37 @@ class HomePage extends StatelessWidget {
                 filled: true,
                 fillColor: Colors.white,
                 contentPadding: EdgeInsets.all(15),
+                hintText: 'Search Dosa',
+                hintStyle: TextStyle(
+                  color: Color(0xffDDDADA),
+                  fontSize: 16,
+                ),
                 prefixIcon: Padding(
                   padding: const EdgeInsets.all(12),
                   child: SvgPicture.asset(
                     'assets/icons/Search.svg',
                   ),
                 ),
-                suffixIcon: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: SvgPicture.asset(
-                    'assets/icons/Filter.svg',
+                suffixIcon: Container(
+                  width: 100,
+                  child: IntrinsicHeight(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        VerticalDivider(
+                          color: Colors.black,
+                          thickness: 0.1,
+                          indent: 10,
+                          endIndent: 10,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: SvgPicture.asset(
+                            'assets/icons/Filter.svg',
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 border: OutlineInputBorder(
